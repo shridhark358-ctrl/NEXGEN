@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>SACOSA Manual Pickup</title>
+</head>
+
+<body>
+
+<h2>Create Manual Pickup</h2>
+
+<form id="pickupForm">
+
+Phone Number:<br> <input id="phone" placeholder="+34600000000"><br><br>
+
+Address:<br> <input id="address" placeholder="Calle Mayor 10 Madrid"><br><br>
+
+<button type="submit">Create Pickup</button>
+
+</form>
+
+<p id="result"></p>
+
+<script>
+
+document.getElementById("pickupForm").addEventListener("submit", async function(e){
+
+e.preventDefault(); // prevents page reload
+
+const phone = document.getElementById("phone").value;
+const address = document.getElementById("address").value;
+
+const res = await fetch("http://localhost:3000/test-pickup", {
+method: "POST",
+headers: {
+"Content-Type": "application/json"
+},
+body: JSON.stringify({
+caller_phone: phone,
+address_input: address
+})
+});
+
+const data = await res.json();
+
+if(data.error){
+document.getElementById("result").innerText = data.error;
+}else{
+document.getElementById("result").innerText = "Pickup Created: " + data.formatted_address;
+}
+
+document.getElementById("pickupForm").reset();
+
+});
+
+</script>
+
+</body>
+
+</html>

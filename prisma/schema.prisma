@@ -1,0 +1,25 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Pickup {
+  pickup_id         String   @id @default(uuid())
+  created_at        DateTime @default(now())
+  caller_phone      String
+  raw_address_input String
+  formatted_address String
+  lat               Float
+  lng               Float
+  place_id          String
+  scheduled_date    DateTime
+  status            String
+  attempts_count    Int
+  source            String
+  bags              Int?
+  notes             String?
+}

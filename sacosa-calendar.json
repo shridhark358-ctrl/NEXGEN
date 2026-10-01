@@ -1,0 +1,12 @@
+{"type": "service_account",
+  "project_id": "calender-sacosa",
+  "private_key_id": "47bbc4294ab58a49501dea8e435b46f3170a0f17",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDJJKN9uHYNZIr2\niPrMUhrsE7iDWq8aVLcGxPgSzM/vBrMQ2r+2cuZRzX6Sg7n26gwvJWGp1WPgOk5S\n6oy4YnA5mdzMM/dWR41bgKt4r4OrP7bAINQ3Hjb/d6oJP42Bu+k6ixsO0HtUPBxH\nCAiYJihsdHHjDjIUI9TG0fsqEhaKSIe9lHYi+oZzbjSAlfUUcnhIVxM/CthtJkl0\no/+cMGb5h8PBgh5jyQDG3rUt8YOFwXeoguowqxkoa8OgR6+ozZhx/25q9LF2cGMc\nqoJIHNDLnQqHYQOu9H86kIiaYWrHcElM8Jpn2RHEP4XisWnxN4nv1RWAv+0SFsqm\nAVBXyvN3AgMBAAECggEAYcVdcw7m0zu8EHok7ow6aeZsGe1KkBH9pVy4+Op1aEpp\nYBf0eEsBiWHJ1I4TJuI9ae1Ru6vuEGBHEibQoA+5XUZc/SWFZHsDSycQMmmeJu+h\ndWJ/xQr60NLp4/TwY89jXwGe9WSBjkBpvl05UDu8CnvPn/6WeROxqbMH0ztXmX8r\nB0EmVQECLKTl/jbbNDHcaN3LMePMHnfNeUsNtYp5PvDWTL6nNO9Xgblt5zMsTzF3\nw4POPUGPflaD41VPYufQ2yFvHC/giPOqeAuEq8nnpEbGQMJGGdI8bMVl7UXyHef5\nEdQUUTA9VRQmDQEKH/BE+c/dMANsrlDl5fMuE4r5AQKBgQDwGvc1Vpch4IgzWkKb\nqt8ZnipHKgLKyq3oEgUl5STHvJjqlzyOP+56kbfDjKQ8KyZXNtW5SbvH3SBsa0lH\nDDsrMKatwg18oRKkHhuYUoAqW7j4G0OMRiZuM6E/g4mVSNpCvFDpsjGdKu5fkdNi\nBzzSDy7nKVsvgxbZcy8DltSzfwKBgQDWdWKkAvmkwN9tAIx9thqARCFSMTLB4ja1\nmG0pr6aRqV9P/b5lKnywwjIBLtu3MsOzoGLbxkcIxs9ffEfvCe869RTH4RmisnzV\nqJ6ge3lDcjfSEo5Npxk8G+Dc7uNpM0lWNHSyFOTtjHJ9nIsKWV+c7HCB6yAbJlsy\n+cnIAbFcCQKBgFQS3SUMIPd3y7lPjas8dcpem6c3iqq/tY1hYfQW/H4EB/d85XNZ\n54N7qsEKaie3ZEF9rfCnZN1jDItqNcpu+fjxnCuTm21caU6WTEtV+BLc8zPNOCXS\nGnrUEU5QHMjtLZ/YmOx7vOuvsLA+O6pDpoRXVLEUxh0o5cNWlcvH8Mq5AoGAF8Ur\nCcLKqNg3630EFWr5xP3IM7QATD0mkzox30z4yWxchCE72Tq8V1su77Kh58xYpLBC\nRNnVRcPDeHHuBzCys3Y2t3DbxozCCWyHKIKHDlK6nS4xV6oNwfvVEKfpzN9CYauu\nw45NUYcfqYyQXLVLQ7lxPvUwudGmih/lnaWSYwECgYARv0CQqY6nqlashy3CnN3Q\n4qRu/bbpc7crbDSdxx7+mUgsndL1+kd39jEnTPdS14aihZKdrG/37UYw2jSqhL+p\nOTDJIY1SArrkgZpsG7uHwF2qfQOp5GPmvh4qauIsBlfZXqxTs4dbSK7aHqxIhVs/\n+sps+BBzXKcIvtqkVyrHyg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "calender-sacosa@calender-sacosa.iam.gserviceaccount.com",
+  "client_id": "114464269368938611457",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/calender-sacosa%40calender-sacosa.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
